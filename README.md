@@ -1,5 +1,5 @@
 # Simple k8s backup
-Simple backup YAML files from Kubernetes
+Simple backup YAML files from Kubernetes.
 
 Backup YAML files with lists: nodes, namespaces, deployments, replicasets, daemonsets, statefulsets, pods, services, serviceentry, virtualservice, endpoints, pv, pvc, sc, configmaps and secrets.
 
