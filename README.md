@@ -8,3 +8,7 @@ Backup YAML files with configurations: nodes, deployments, replicasets, daemonse
 Then the files are archived in .zip.
 
 Add this script to a cron that runs daily.
+```
+0 5 * * * root /storage/k8s_backup/.script/backup.sh
+```
+And don't forget to set directory with backup and script access 'chmod -r 700'
