@@ -3,7 +3,7 @@
 #DEV - kubernetes claster name for developers
 
 DEV_DEST="/storage/k8s_backup/dev" 
-DEV_KEY="/storage/k8s_backup/.script/config-dev.json"
+DEV_KEY="/storage/k8s_backup/.script/config-dev.json" #cluster key
 FDATE="$(date +%Y-%m-%d)"
 
 #For telegram notification
