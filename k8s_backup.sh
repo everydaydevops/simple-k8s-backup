@@ -16,7 +16,6 @@ cd $DEV_DEST/$DATE
 
 KUBECONFIG=$DEV_KEY kubectl get nodes --all-namespaces -o wide > list_nodes.yaml
 KUBECONFIG=$DEV_KEY kubectl get all --all-namespaces -o wide > list_all.yaml
-KUBECONFIG=$DEV_KEY kubectl get nodes --all-namespaces -o wide > list_nodes.yaml
 KUBECONFIG=$DEV_KEY kubectl get namespaces --all-namespaces > list_namespaces.yaml
 KUBECONFIG=$DEV_KEY kubectl get deployments --all-namespaces -o wide > list_deployments.yaml
 KUBECONFIG=$DEV_KEY kubectl get rs --all-namespaces -o wide > list_replicasets.yaml
